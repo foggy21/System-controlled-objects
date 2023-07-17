@@ -15,7 +15,7 @@ namespace controlledObjects
             Random r = new Random();
             int countOfObjects = r.Next(1, 10);
 
-            for (int i = countOfObjects; i < countOfObjects; i++)
+            for (int i = 0; i < countOfObjects; i++)
             {
                 ControlledObject obj = (ControlledObject)factory.CreateControlledObject();
                 controlledObjects.Add(obj);
